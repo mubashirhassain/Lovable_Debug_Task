@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "resend": "npm:resend@2.0.0"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-read main.ts"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "esnext"]
+  },
+  "nodeModulesDir": true
+}
